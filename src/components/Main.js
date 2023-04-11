@@ -1,5 +1,5 @@
 import React from 'react';
-import HornedBeast from './hornedBeast';
+import HornedBeast from '../components/hornedBeast';
 
 const hornedBeasts = [
     {
