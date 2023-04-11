@@ -18,7 +18,7 @@ const hornedBeasts = [
     },
     description: 'A winged bug that can fly through the air.',
   },
-  // Add more objects as needed
+
 ];
 
 class Main extends React.Component {
