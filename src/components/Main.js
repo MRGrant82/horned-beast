@@ -1,30 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import HornedBeast from '../components/hornedBeast';
+import data from '../components/data.json';
 
-const hornedBeasts = [
-    {
-      title: 'Spider-Bug',
-      imageUrl: './spider-bug.jpg',
-      description: 'A creepy-crawly bug with spider-like legs.',
-    },
-    {
-      title: 'Flying-Bug',
-      imageUrl: './flying-bug.jpg',
-      description: 'A winged bug that can fly through the air.',
-    },
-  ];
-  
+class Gallery extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      beasts: data,
+    };
+  }
 
-class Main extends React.Component {
   render() {
     return (
       <div>
-        {hornedBeasts.map((beast, index) => (
+        {this.state.beasts.map((beast) => (
           <HornedBeast
-            key={index}
+            key={beast._id}
             title={beast.title}
-            imageUrl={beast.imageUrl}
+            imageUrl={beast.image_url}
             description={beast.description}
+            keyword={beast.keyword}
+            horns={beast.horns}
           />
         ))}
       </div>
@@ -32,4 +28,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main;
+export default Gallery;
