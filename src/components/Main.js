@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import HornedBeast from '../components/hornedBeast';
-import data from '../components/data.json';
+import HornedBeast from '../hornedBeast';
+import data from '../data.json';
 
 class Gallery extends Component {
   constructor(props) {
