@@ -20,7 +20,7 @@ class HornedBeast extends Component {
         <h2>{title}</h2>
         <Image width="200px" src={image_url} onClick={this.addClick} />
         <p>{description}</p>
-        <p>&hearts; {this.state.likes}</p>
+        <p>&#x1F44D; {this.state.likes}</p>
       </div>
     )
   }
