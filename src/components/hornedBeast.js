@@ -1,6 +1,6 @@
 import React from 'react';
-import horn1 from './horn1.png';
-import horn2 from './horn2.png';
+import horn1 from '../components/horn1.png';
+import horn2 from '../components/horn2.png';
 
 class HornedBeast extends React.Component {
   render() {
