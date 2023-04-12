@@ -1,31 +1,25 @@
 import React, { Component } from 'react';
-import HornedBeast from '../components/hornedBeast';
-import data from '../components/data.json';
+import { Row, Col } from 'react-bootstrap';
+import HornedBeast from './HornedBeast';
 
-class Gallery extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      beasts: data,
-    };
-  }
 
+class Main extends Component {
   render() {
+    const hornedBeasts = this.props.loadContent.map((beast) => (
+      <HornedBeast beastinfo={beast} />
+    ));
+    const colBeasts = hornedBeasts.map((beast) => (
+      <Col xs={6} md={4} lg={3} key={beast.key}>
+        {beast}
+      </Col>
+    ));
+
     return (
-      <div>
-        {this.state.beasts.map((beast) => (
-          <HornedBeast
-            key={beast._id}
-            title={beast.title}
-            imageUrl={beast.image_url}
-            description={beast.description}
-            keyword={beast.keyword}
-            horns={beast.horns}
-          />
-        ))}
+      <div className="main">
+        <Row>{colBeasts}</Row>
       </div>
     );
   }
 }
 
-export default Gallery;
+export default Main;
