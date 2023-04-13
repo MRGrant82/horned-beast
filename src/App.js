@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import imgArr from './data.json';
+import data from './data.json';
 
 
 function App() {
