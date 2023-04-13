@@ -5,7 +5,12 @@ function SelectedBeast(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+    console.log('show:', show);
+
+    setShow(true);
+  };
+  
 
   const { beast } = props;
 

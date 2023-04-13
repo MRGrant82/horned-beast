@@ -19,6 +19,7 @@ function App() {
       <Header />
       <Main beasts={data} onBeastSelect={handleBeastSelect} />
       {selectedBeast && <SelectedBeast beast={selectedBeast} onClose={() => setSelectedBeast(null)} />}
+
       <Footer />
     </>
   );
