@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import React from 'react';
 
-class HornedBeast extends Component {
+class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       likes: 0
     };
-
     this.addClick = this.addClick.bind(this);
   }
 
@@ -32,7 +29,12 @@ class HornedBeast extends Component {
     return (
       <div key={beastinfo._id}>
         <h2>{title}</h2>
-        <Image width="200px" src={image_url} onClick={this.addClick} />
+        <img
+          width="200px"
+          src={image_url}
+          onClick={this.addClick}
+          alt={title}
+        />
         <p>{description}</p>
         <p>&#x1F44D; {this.state.likes}</p>
       </div>
