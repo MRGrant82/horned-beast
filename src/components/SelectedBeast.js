@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
-function SelectedHornedBeast(props) {
-  const { beast, handleClose, show } = props;
+function SelectedBeast(props) {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const { beast } = props;
 
   return (
-    <div key={beast._id}>
+    <>
+      <Button variant="primary" onClick={handleShow}>
+        {beast.title}
+      </Button>
+
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{beast.title}</Modal.Title>
@@ -20,8 +29,8 @@ function SelectedHornedBeast(props) {
           </Button>
         </Modal.Footer>
       </Modal>
-    </div>
+    </>
   );
 }
 
-export default SelectedHornedBeast;
+export default SelectedBeast;
