@@ -7,14 +7,18 @@ class HornedBeast extends React.Component {
       likes: 0
     };
     this.addClick = this.addClick.bind(this);
+    this.onImageClick = this.onImageClick.bind(this);
   }
 
   addClick() {
-    console.log('addClick called');
-    this.props.onBeastSelect(this.props.beastinfo);
     this.setState({
       likes: this.state.likes + 1
     });
+  }
+
+  onImageClick() {
+    this.addClick();
+    this.props.onBeastSelect(this.props.beastinfo);
   }
 
   render() {
@@ -32,7 +36,7 @@ class HornedBeast extends React.Component {
         <img
           width="200px"
           src={image_url}
-          onClick={this.addClick}
+          onClick={this.onImageClick}
           alt={title}
         />
         <p>{description}</p>
