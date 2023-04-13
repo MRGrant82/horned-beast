@@ -4,8 +4,17 @@ import { Modal, Button } from 'react-bootstrap';
 function SelectedBeast(props) {
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => {
+    setShow(false);
+    alert('Modal closed');
+  };
+  
+  const handleShow = () => {
+    setShow(true);
+    alert('Modal opened');
+  };
+  
+  
 
   const { beast } = props;
 

@@ -5,6 +5,8 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import data from './data.json';
 import SelectedBeast from './components/SelectedBeast';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Header />
       <Main beasts={data} onBeastSelect={handleBeastSelect} />
       {selectedBeast && <SelectedBeast beast={selectedBeast} onClose={() => setSelectedBeast(null)} />}
+
       <Footer />
     </>
   );
