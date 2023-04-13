@@ -7,13 +7,11 @@ class HornedBeast extends Component {
   }
   
   addClick = () => {
+    console.log('test');
+    this.props.onBeastSelect(this.props.beastinfo);
     this.setState({
       likes: this.state.likes + 1
     })
-  }
-  
-  handleClick = () => {
-    this.props.onBeastSelect(this.props.beastinfo);
   }
   
   render() {
@@ -28,7 +26,7 @@ class HornedBeast extends Component {
     return (
       <div key={beastinfo._id}>
         <h2>{title}</h2>
-        <Image width="200px" src={image_url} onClick={this.handleClick} />
+        <Image width="200px" src={image_url} onClick={this.addClick} />
         <p>{description}</p>
         <p>&#x1F44D; {this.state.likes}</p>
       </div>

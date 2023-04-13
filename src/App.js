@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import data from './data.json';
 import SelectedBeast from './components/SelectedBeast';
 
+
 function App() {
   const [selectedBeast, setSelectedBeast] = useState(null);
 
