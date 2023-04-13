@@ -14,12 +14,10 @@ function SelectedBeast(props) {
     alert('Modal opened');
   };
   
-  
-
   const { beast } = props;
 
   return (
-    <>
+    <div>
       <Button variant="primary" onClick={handleShow}>
         {beast.title}
       </Button>
@@ -38,7 +36,7 @@ function SelectedBeast(props) {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
+    </div>
   );
 }
 

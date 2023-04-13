@@ -1,29 +1,25 @@
 import React, { useState } from 'react';
-import './App.css';
+import data from './data.json';
 import Header from './components/Header';
 import Main from './components/Main';
-import Footer from './components/Footer';
-import data from './data.json';
 import SelectedBeast from './components/SelectedBeast';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 
 function App() {
   const [selectedBeast, setSelectedBeast] = useState(null);
 
-  function handleBeastSelect(beast) {
+  const handleBeastSelect = (beast) => {
     setSelectedBeast(beast);
   }
 
   return (
-    <>
+    <div className="App">
       <Header />
       <Main beasts={data} onBeastSelect={handleBeastSelect} />
       {selectedBeast && <SelectedBeast beast={selectedBeast} onClose={() => setSelectedBeast(null)} />}
-
       <Footer />
-    </>
+    </div>
   );
 }
 
