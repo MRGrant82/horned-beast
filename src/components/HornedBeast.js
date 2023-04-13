@@ -16,12 +16,13 @@ class HornedBeast extends Component {
   }
 
   addClick() {
-    console.log('test');
+    console.log('addClick called');
     this.props.onBeastSelect(this.props.beastinfo);
     this.setState({
       likes: this.state.likes + 1
     });
   }
+  
 
   render() {
     const { beastinfo } = this.props;
