@@ -70,12 +70,231 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-Number and name of feature: ________________________________
+Number and name of feature: Display Images
 
-Estimate of time needed to complete: ___3 hours__
+Estimate of time needed to complete: 3 hours
 
-Start time: __7pm EST___
+Start time: Don't remember
 
-Finish time: _____
+Finish time: Don't remember
 
-Actual time needed to complete: _____
+Actual time needed to complete: Don't remember
+
+Number and name of feature: Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: 3 hours
+
+Start time: Don't remember
+
+Finish time: Don't remember
+
+Actual time needed to complete: Don't remember
+
+Number and name of feature: Bootstrap
+
+Estimate of time needed to complete: 3 hours
+
+Start time: Don't remember
+
+Finish time: Don't remember
+
+Actual time needed to complete: Don't remember
+
+Number and name of feature: Display a Modal
+
+Estimate of time needed to complete: 5 hours
+
+Start time: Don't remember
+
+Finish time: Don't remember
+
+Actual time needed to complete: Don't remember
+
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+Number and name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
