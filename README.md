@@ -110,11 +110,11 @@ Finish time: Don't remember
 
 Actual time needed to complete: Don't remember
 
-Number and name of feature: 
+Number and name of feature: Filter by Numbers of Horns
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 4
 
-Start time: 
+Start time: 7:30 PM EST
 
 Finish time: 
 
