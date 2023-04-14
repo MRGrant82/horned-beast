@@ -116,9 +116,9 @@ Estimate of time needed to complete: 4
 
 Start time: 7:30 PM EST
 
-Finish time: 
+Finish time: 10:00 AM EST
 
-Actual time needed to complete: 
+Actual time needed to complete: 5 hours
 Number and name of feature: 
 
 Estimate of time needed to complete: 
