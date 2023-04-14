@@ -2,37 +2,40 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
 function SelectedBeast(props) {
-  const [show, setShow] = useState(false);
+  
+  const [showModal, setShowModal] = useState(false);
 
+ 
   useEffect(() => {
     if (props.beast) {
-      setShow(true);
+      setShowModal(true);
     }
   }, [props.beast]);
 
-  const handleClose = () => {
-    setShow(false);
+  
+  const handleCloseModal = () => {
+    setShowModal(false);
     alert('Modal closed');
   };
 
-  const { beast } = props;
-
-  if (!beast) {
+ 
+  if (!props.beast) {
     return null;
   }
 
+  
   return (
     <div>
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={showModal} onHide={handleCloseModal} size="lg">
         <Modal.Header closeButton>
-          <Modal.Title>{beast.title}</Modal.Title>
+          <Modal.Title>{props.beast.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={beast.image_url} alt={beast.title} />
-          <p>{beast.description}</p>
+          <img src={props.beast.image_url} alt={props.beast.title} className="img-fluid" />
+          <p>{props.beast.description}</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary" onClick={handleCloseModal}>
             Close
           </Button>
         </Modal.Footer>
